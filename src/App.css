@@ -1,0 +1,60 @@
+body{
+  background-color: black;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+  text-transform: capitalize;
+  text-align: center;
+  color: aliceblue;
+  padding: 10px;
+}
+.headding{
+  color: blueviolet;
+}
+.question{
+  margin: 20 0px;
+  padding: 10px;
+}
+.options{
+  margin: 10px;
+}
+input[type='radio']{
+  margin: 10px;
+  accent-color: blueviolet;
+}
+.btn button{
+  margin: 10px;
+  padding: 12px 26px;
+  font-size: 16px;
+  background-color: blueviolet;
+  border: none;
+  color: aliceblue;
+  outline: none;
+  gap: 1rem;
+  letter-spacing: 1px;
+  border-radius: 12px;
+}
+.btn button:hover{
+  background-color: transparent;
+  border: 1px solid blueviolet;
+}
+.option{
+  border: 1px solid blueviolet;
+  margin: 10px;
+  border-radius: 4px;
+  text-align: left;
+}
+.option:hover{
+  color: blueviolet;
+  border: 1px solid white;
+}
+.block{
+  border: 1px solid blueviolet;
+  width: 400px;
+  padding: 40px;
+  border-radius: 4px;
+  background-color: rgba(39, 39, 40, 0.986);
+}
